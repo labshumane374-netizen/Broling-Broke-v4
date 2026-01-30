@@ -414,11 +414,12 @@ min-width: 0;
   text-overflow: ellipsis;
 }
 #start-menu-content {
-display: flex;
+  display: flex;
   flex-direction: row;
   flex: 1;
   min-height: 0;
   overflow: hidden;
+  margin: 0;
 }
 #start-menu-left {
   flex: 0 0 60%;
@@ -427,11 +428,12 @@ display: flex;
   overflow-y: auto;
   overflow-x: hidden;
   box-sizing: border-box;
+  padding: 0 0 5px 0;
 }
 #start-menu-right {
   flex: 0 0 40%;
   background: linear-gradient(180deg, #d0e8ff 0%, #b8d8f0 100%);
-  padding: 5px 5px 0 5px;
+  padding: 5px 5px 5px 5px;
   overflow-y: auto;
   overflow-x: hidden;
   box-sizing: border-box;
@@ -501,7 +503,7 @@ display: flex;
   cursor: pointer;
   border-radius: 3px;
   transition: background 0.1s;
-  margin-bottom: 2px;
+  margin-bottom: 0;
   border-left: 3px solid transparent;
   box-sizing: border-box;
 }
@@ -532,7 +534,8 @@ display: flex;
   display: flex;
   justify-content: flex-end;
   gap: 6px;
-  border-top: 2px solid #1a5cb8;
+  border-top: 0;
+  margin: 0;
   flex-shrink: 0;
   box-sizing: border-box;
 }
